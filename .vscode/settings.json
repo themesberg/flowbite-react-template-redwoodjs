@@ -1,11 +1,17 @@
 {
-  "editor.tabSize": 2,
-  "files.trimTrailingWhitespace": true,
-  "editor.formatOnSave": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "[prisma]": {
-    "editor.formatOnSave": true
-  }
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "tailwindCSS.classAttributes": ["class", "className", "theme"],
+  "tailwindCSS.experimental.classRegex": [
+    ["twMerge\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["createTheme\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
 }

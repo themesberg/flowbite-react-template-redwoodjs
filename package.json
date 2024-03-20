@@ -9,11 +9,8 @@
   "devDependencies": {
     "@redwoodjs/core": "7.0.2",
     "@redwoodjs/project-config": "7.0.2",
+    "eslint-plugin-tailwindcss": "3.15.1",
     "prettier-plugin-tailwindcss": "0.4.1"
-  },
-  "eslintConfig": {
-    "extends": "@redwoodjs/eslint-config",
-    "root": true
   },
   "engines": {
     "node": "=20.x"
@@ -21,6 +18,5 @@
   "prisma": {
     "seed": "yarn rw exec seed"
   },
-  "packageManager": "yarn@4.1.0",
-  "dependencies": {}
+  "packageManager": "yarn@4.1.0"
 }
