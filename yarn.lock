@@ -11729,9 +11729,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flowbite-react@npm:^0.7.4":
-  version: 0.7.4
-  resolution: "flowbite-react@npm:0.7.4"
+"flowbite-react@npm:^0.7.5":
+  version: 0.7.5
+  resolution: "flowbite-react@npm:0.7.5"
   dependencies:
     "@floating-ui/react": "npm:^0.26.2"
     classnames: "npm:^2.5.1"
@@ -11743,7 +11743,7 @@ __metadata:
     react: ^18
     react-dom: ^18
     tailwindcss: ^3
-  checksum: 10c0/aee824e25f08bead59bc7f1b4778db2dff834a7989b4f814e6d72b83e644a0e1fac4567531c85317e617886f755e7ef811d9465b51e886c1ef5b15fd211928b8
+  checksum: 10c0/e1cfc73ab5926c41a9a7bad17ddc45b14b49c274b169eb091a3df10e29a9245632bde419d261cf1bce4836015773a9cfe36633dab3ee8c6321e6584f71f5f408
   languageName: node
   linkType: hard
 
@@ -21060,7 +21060,7 @@ __metadata:
     "@types/react": "npm:^18.2.55"
     "@types/react-dom": "npm:^18.2.19"
     autoprefixer: "npm:^10.4.17"
-    flowbite-react: "npm:^0.7.4"
+    flowbite-react: "npm:^0.7.5"
     postcss: "npm:^8.4.35"
     postcss-loader: "npm:^8.1.0"
     react: "npm:18.2.0"
