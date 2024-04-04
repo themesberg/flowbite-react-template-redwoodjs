@@ -1,19 +1,15 @@
-import { Link, routes } from '@redwoodjs/router'
 import { Metadata } from '@redwoodjs/web'
+import { DarkThemeToggle } from 'flowbite-react'
 
 const HomePage = () => {
   return (
     <>
       <Metadata title="Home" description="Home page" />
 
-      <h1>HomePage</h1>
-      <p>
-        Find me in <code>./web/src/pages/HomePage/HomePage.tsx</code>
-      </p>
-      <p>
-        My default route is named <code>home</code>, link to me with `
-        <Link to={routes.home()}>Home</Link>`
-      </p>
+      <main className="flex min-h-screen items-center justify-center gap-2 dark:bg-gray-800">
+        <h1 className="text-2xl dark:text-white">Flowbite React + RedwoodJS</h1>
+        <DarkThemeToggle />
+      </main>
     </>
   )
 }
