@@ -11,20 +11,24 @@
     ]
   },
   "dependencies": {
-    "@redwoodjs/forms": "7.0.2",
-    "@redwoodjs/router": "7.0.2",
-    "@redwoodjs/web": "7.0.2",
-    "flowbite-react": "^0.8.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@redwoodjs/forms": "8.5.0",
+    "@redwoodjs/router": "8.5.0",
+    "@redwoodjs/web": "8.5.0",
+    "flowbite-react": "^0.11.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@redwoodjs/vite": "7.0.2",
+    "@redwoodjs/vite": "8.5.0",
+    "@tailwindcss/postcss": "^4.0.6",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
-    "postcss-loader": "^8.1.0",
-    "tailwindcss": "^3.4.1"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^4.0.7"
+  },
+  "scripts": {
+    "postinstall": "flowbite-react patch"
   }
 }
