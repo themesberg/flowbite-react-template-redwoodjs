@@ -1,4 +1,5 @@
-import { hydrateRoot, createRoot } from 'react-dom/client'
+import { initThemeMode } from 'flowbite-react'
+import { createRoot, hydrateRoot } from 'react-dom/client'
 
 import App from './App'
 import Routes from './Routes'
@@ -33,3 +34,5 @@ if (redwoodAppElement.children?.length > 0) {
     </App>
   )
 }
+
+initThemeMode()
